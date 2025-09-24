@@ -11,6 +11,7 @@ Página Incial:
 
 
 Home com vídeos:
+<img width="1894" height="823" alt="Captura de tela 2025-09-24 112736" src="https://github.com/user-attachments/assets/ad44f938-97b2-48e7-8f30-2008b90285c1" />
 <img width="1895" height="809" alt="image" src="https://github.com/user-attachments/assets/eeea6603-2af9-46c6-b606-2bed9589b4d0" />
 
 
