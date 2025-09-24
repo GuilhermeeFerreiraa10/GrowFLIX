@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="assets/libs/bootstrap-5.3.8/css/bootstrap.min.css">
+<link rel="stylesheet" href="./css/home.css">
+</head>
+<body class="bg-black">
+<header id="banner">
+<nav class="navbar navbar-expand-lg transparent-navbar">
+<div class="container-fluid px-4">
+    <a class="navbar-brand" href="./index.html">
+        <img class="brand" src="./assets/images/logo-growflix.svg" alt="Logo Growflix" />
+    </a>
+    <button
+        class="navbar-toggler d-block d-lg-none"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+    >
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#episodios">Growcasts[episódios]</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#webinar-flutter">Webinar em Flutter</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#jornada-ux-ui">Jornada UX/UI</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#diversos">Diversos</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<div class="header-image-container">
+<img src="/assets/images/growcast-01.png" alt="growcasts">
+<div class="growcast-content">
+    <p class="growcast-podcast">PODCAST</p>
+    <h2 class="growcast-title">GROWCAST</h2>
+    <button class="growcast-button" data-video="https://www.youtube.com/embed/7OWT3lfHYvE">
+        <i class="bi bi-play-fill"></i> Assistir
+    </button>
+</div>
+</div>
+</header>
+<div class="growcast-episodes-section" id="episodios">
+<div class="container">
+<h2 class="section-title">
+    Growcast [Episódios]
+    <i class="bi bi-caret-right-fill"></i>
+</h2>
+<div class="episodes-list">
+    <div class="episode-card" data-video="https://www.youtube.com/embed/aJ-HZuLcKeA">
+        <img src="/assets/Growcasts[episódios]/EP 00.jpg" alt="Episódio 00">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #00</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 00</p>
+            <p class="episode-title">MANOEL ROLDÃO</p>
+            <p class="episode-description">CONTA TUDO...</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/7OWT3lfHYvE">
+        <img src="/assets/Growcasts[episódios]/EP 01.jpg" alt="Episódio 01">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #01</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 01</p>
+            <p class="episode-title">EO QA COM ISSO?</p>
+            <p class="episode-description">WILLIAM SOARES</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/ci1eQGPK89o">
+        <img src="/assets/Growcasts[episódios]/EP 02.jpg" alt="Episódio 02">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #02</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 02</p>
+            <p class="episode-title">EO LÁ FORA?</p>
+            <p class="episode-description">GABRIEL SOARES</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/WM7pGG7OicQ">
+        <img src="/assets/Growcasts[episódios]/EP 03.jpg" alt="Episódio 03">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #03</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 03</p>
+            <p class="episode-title">NUNCA DESISTA DOS SEUS SONHOS...</p>
+            <p class="episode-description">Marcelo Eltz</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/2c8VOBZ160Y">
+        <img src="/assets/Growcasts[episódios]/EP 04.jpg" alt="Episódio 04">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #04</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 04</p>
+            <p class="episode-title">AGILIDADE IMPORTA?</p>
+            <p class="episode-description">Leandro Souza</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/mxnEm03cYPc">
+        <img src="/assets/Growcasts[episódios]/EP 05.jpg" alt="Episódio 05">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #05</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 05</p>
+            <p class="episode-title">DOIS EM UM</p>
+            <p class="episode-description">Lucas Z. & Daniele S.</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/m7DyR07KrOE">
+        <img src="/assets/Growcasts[episódios]/EP 06.jpg" alt="Episódio 06">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #06</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 06</p>
+            <p class="episode-title">LUGAR DE MULHER TAMBEM NA TI</p>
+            <p class="episode-description">Daniela L. & Dafne P.</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/vW8G9KPwRL0">
+        <img src="/assets//Growcasts[episódios]/EP 07.jpg" alt="Episódio 07">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #07</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 07</p>
+            <p class="episode-title">DOIS EM UM</p>
+            <p class="episode-description">Lucas Z. & Daniele S.</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/_Ut2KqAqPyk">
+        <img src="/assets/Growcasts[episódios]/EP 08.jpg" alt="Episódio 08">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #08</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 08</p>
+            <p class="episode-title">DOIS EM UM</p>
+            <p class="episode-description">Lucas Z. & Daniele S.</p>
+        </div>
+    </div>
+    <div class="episode-card" data-video="https://www.youtube.com/embed/dfDgs0Ive2Q">
+        <img src="/assets/Growcasts[episódios]/EP 09.jpg" alt="Episódio 09">
+        <div class="hover-overlay">
+            <i class="bi bi-play-circle-fill"></i>
+            <p class="overlay-text">Assistir Episódio #09</p>
+        </div>
+        <div class="episode-info">
+            <p class="episode-number">EPISÓDIO 09</p>
+            <p class="episode-title">DOIS EM UM</p>
+            <p class="episode-description">Lucas Z. & Daniele S.</p>
+        </div>
+    </div>
+</div>
+<section id="webinar-flutter">
+    <div class="webinar-flutter-section" id="episodios">
+        <div class="container">
+            <h2 class="webinar-flutter-section">
+                Webinar-Flutter
+                <i class="bi bi-caret-right-fill"></i>
+            </h2>
+        </div>
+        <div class="episodes-list">
+            <div class="episode-card" data-video="https://www.youtube.com/embed/WKbLXuP9S-c">
+                <img src="/assets/webinar/Webinar-Recriando o linkedin.jpg" alt="Episódio 00">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Recriando Linkedin</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/dJ6y1zMjVXU">
+                <img src="/assets/webinar/Recriando Instagram.jpg" alt="Episódio 01">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Recriando Instagram</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/8rdJsqUjsGg">
+                <img src="/assets/webinar/Recriando Ifood.jpg" alt="Episódio 03">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Recriando Ifood</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/2c8VOBZ160Y">
+                <img src="/assets/webinar/Recriando o Picpay.jpg" alt="Episódio 04">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Recriando o Picpay</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/L1pKoMC6hWk">
+                <img src="/assets/webinar/Recriando Zapzap.jpg" alt="Episódio 05">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Recriando o Zapzap</p>
+                </div>
+            </div>
+        </div>
+</section>
+<section id="jornada-ux-ui">
+    <div class="jornada-ux-ui-section" id="jornada">
+        <div class="container">
+            <h2 class="jornada-ux-ui-title">
+                Jornada UX/UI
+                <i class="bi bi-caret-right-fill"></i>
+            </h2>
+        </div>
+        <div class="episodes-list">
+            <div class="episode-card" data-video="https://www.youtube.com/embed/FiZMowbaiJA">
+                <img src="/assets/Jornada/UX-UI é pra todos.jpg" alt="O UI/UX Design é para todos?">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">O UI/UX Design é para todos?</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/cwqDu0ZzbYE">
+                <img src="/assets/Jornada/Como migrar UX-UI.jpg" alt="Como migrar para o UI/UX Design">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">Como migrar para o UI/UX Design</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/ZMZjQ9aRuIY">
+                <img src="/assets/Jornada/UX-UI oportunidades.jpg" alt="As oportunidades de estudar">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">As oportunidades de estudar em um programa</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/8sd3wuKTZMA">
+                <img src="/assets/Jornada/UX-UI profissional.jpg" alt="O profissional de UI/UX Design">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">O profissional de UI/UX Design</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/-26aqPtgoEY">
+                <img src="/assets/Jornada/UX_UI papel.jpg" alt="O papel do UX/UI Designer">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">O papel do UX/UI pro Designer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="diversos">
+    <div class="diversos-section">
+        <div class="container">
+            <h2 class="diversos-title">
+                Diversos
+                <i class="bi bi-caret-right-fill"></i>
+            </h2>
+        </div>
+        <div class="episodes-list">
+            <div class="episode-card" data-video="https://www.youtube.com/embed/QsuhYgsSYQo">
+                <img src="/assets/Diversos/Feedback do parceiro.jpg" alt="Feedback do parceiro Safetech">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">#1 Feedback do parceiro Safetech</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/ouDn8z3PSqs">
+                <img src="/assets/Diversos/dia a dia de um dev.jpg" alt="Dia a dia de um dev">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">COMO É O DIA A DIA DE UM DEV?</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/cQDQNX6NXYo">
+                <img src="/assets/Diversos/Nossos alunos.jpg" alt="Onde nossos alunos trabalham">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">#2 Você sabe onde NOSSOS ALUNOS trabalham?</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/nKGbolkirBM">
+                <img src="/assets/Diversos/Arezzo&co com Paulo Marcon.jpg" alt="Paulo Marcon - Arezzo">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">AREZZO & CO<br>PAULO MARCON<br>o mestre da moda</p>
+                </div>
+            </div>
+            <div class="episode-card" data-video="https://www.youtube.com/embed/6sZPsqNjeek">
+                <img src="/assets/Diversos/Conheça a arezzo.jpg" alt="Conheça a Arezzo">
+                <div class="hover-overlay">
+                    <i class="bi bi-play-circle-fill"></i>
+                    <p class="overlay-text">CONHEÇA A AREZZO</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="divider"></div>
+    <footer class="main-footer">
+    <div class="footer-content">
+        <p class="footer-contact">Dúvidas? Ligue 0800 591 8942</p>
+        <div class="footer-columns">
+            <div class="footer-column">
+                <ul>
+                    <li><a href="#">Perguntas frequentes</a></li>
+                    <li><a href="#">Relações com investidores</a></li>
+                    <li><a href="#">Formas de assistir</a></li>
+                    <li><a href="#">Informações corporativas</a></li>
+                    <li><a href="#">Só na Growflix</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="#">Central de Ajuda</a></li>
+                    <li><a href="#">Carreiras</a></li>
+                    <li><a href="#">Termos de Uso</a></li>
+                    <li><a href="#">Entre em contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="#">Conta</a></li>
+                    <li><a href="#">Resgatar cartão pré-pago</a></li>
+                    <li><a href="#">Privacidade</a></li>
+                    <li><a href="#">Teste de velocidade</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <ul>
+                    <li><a href="#">Preferências de cookies</a></li>
+                    <li><a href="#">Avisos legais</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-brand">Growflix Growdev / Guilherme Ferreira</p>
+    </div>
+</footer>
+<div id="videoModal" class="video-modal">
+    <div class="video-modal-content">
+        <span class="close-button">&times;</span>
+        <div class="video-container">
+            <iframe id="youtubeIframe" src="" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+<script src="assets/libs/bootstrap-5.3.8/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
