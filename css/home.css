@@ -78,12 +78,6 @@ header {
     gap: 8px;
 }
 
-.growcast-button:hover {
-    background-color: #fff;
-    color: #000;
-    transform: scale(1.05);
-}
-
 .growcast-button i {
     font-size: 1.2rem;
 }

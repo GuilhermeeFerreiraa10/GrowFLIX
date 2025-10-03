@@ -61,11 +61,6 @@ body {
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
-.button:hover {
-    background-color: #f40612;
-    transform: scale(1.05);
-}
-
 /* --- ESTILOS DA SEÇÃO DA TV --- */
 .tv-section {
     background-color: #000;
